@@ -4,6 +4,7 @@ import initSmoothScroll from './modules/scroll_suave.js'
 import initTabNav from './modules/navtab.js';
 import initModal from './modules/modal.js';
 import initTolltip from './modules/tooltip.js';
+import initDropdownMenu from './modules/dropdown_menu.js';
 
 
 initSmoothScroll();
@@ -12,3 +13,4 @@ initAccordion();
 initTabNav();
 initModal();
 initTolltip();
+initDropdownMenu();
