@@ -2,12 +2,12 @@ import ScrollSuave from "./modules/scroll_suave.js";
 import Accordion from "./modules/accordion.js";
 import TabNav from "./modules/navtab.js";
 import Modal from "./modules/modal.js";
-import initAnimacaoScroll from "./modules/animacao_scroll.js";
-import initTolltip from "./modules/tooltip.js";
+import Tooltip from "./modules/tooltip.js";
 import initDropdownMenu from "./modules/dropdown_menu.js";
 import initMenuMobile from "./modules/menu_mobile.js";
 import initFuncionamento from "./modules/funcionamento.js";
 import initFetchAnimais from "./modules/fetch_animais.js";
+import initAnimacaoScroll from "./modules/animacao_scroll.js";
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
@@ -28,7 +28,9 @@ const modal = new Modal(
 );
 modal.init();
 
-initTolltip();
+const tooltip = new Tooltip("[data-tooltip]");
+tooltip.init();
+
 initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
