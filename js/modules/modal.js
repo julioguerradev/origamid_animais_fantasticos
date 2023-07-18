@@ -31,7 +31,6 @@ export default class Modal {
 
   // adiciona os eventos aos elementos do modal
   addModalEvents() {
-    console.log(this.botaoFechar);
     this.botaoAbrir.addEventListener("click", this.eventToggleModal);
     this.botaoFechar.addEventListener("click", this.eventToggleModal);
     this.containerModal.addEventListener("click", this.cliqueForaModal);
