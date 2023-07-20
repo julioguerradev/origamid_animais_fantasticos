@@ -7,7 +7,7 @@ import ScrollAnima from "./modules/scroll_anima.js";
 import fetchAnimais from "./modules/fetch_animais.js";
 import DropdownMenu from "./modules/dropdown_menu.js";
 import MenuMobile from "./modules/menu_mobile.js";
-import initFuncionamento from "./modules/funcionamento.js";
+import Funcionamento from "./modules/funcionamento.js";
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
@@ -31,8 +31,6 @@ modal.init();
 const tooltip = new Tooltip("[data-tooltip]");
 tooltip.init();
 
-fetchAnimais("../../animaisapi.json", ".numeros-grid");
-
 const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
 scrollAnima.init();
 
@@ -46,4 +44,7 @@ const menuMobile = new MenuMobile(
 );
 menuMobile.init();
 
-initFuncionamento();
+const funcionamento = new Funcionamento("[data-semana]", "aberto");
+funcionamento.init();
+
+fetchAnimais("../../animaisapi.json", ".numeros-grid");
