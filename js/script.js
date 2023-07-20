@@ -6,7 +6,7 @@ import Tooltip from "./modules/tooltip.js";
 import ScrollAnima from "./modules/scroll_anima.js";
 import fetchAnimais from "./modules/fetch_animais.js";
 import DropdownMenu from "./modules/dropdown_menu.js";
-import initMenuMobile from "./modules/menu_mobile.js";
+import MenuMobile from "./modules/menu_mobile.js";
 import initFuncionamento from "./modules/funcionamento.js";
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
@@ -39,5 +39,11 @@ scrollAnima.init();
 const dropdown = new DropdownMenu("[data-dropdown]");
 dropdown.init();
 
-initMenuMobile();
+const menuMobile = new MenuMobile(
+  '[data-menu="button"]',
+  '[data-menu="list"]',
+  ["click", "touchstart"]
+);
+menuMobile.init();
+
 initFuncionamento();
