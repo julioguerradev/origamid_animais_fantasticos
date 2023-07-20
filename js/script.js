@@ -5,7 +5,7 @@ import Modal from "./modules/modal.js";
 import Tooltip from "./modules/tooltip.js";
 import ScrollAnima from "./modules/scroll_anima.js";
 import fetchAnimais from "./modules/fetch_animais.js";
-import initDropdownMenu from "./modules/dropdown_menu.js";
+import DropdownMenu from "./modules/dropdown_menu.js";
 import initMenuMobile from "./modules/menu_mobile.js";
 import initFuncionamento from "./modules/funcionamento.js";
 
@@ -36,6 +36,8 @@ fetchAnimais("../../animaisapi.json", ".numeros-grid");
 const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
 scrollAnima.init();
 
-initDropdownMenu();
+const dropdown = new DropdownMenu("[data-dropdown]");
+dropdown.init();
+
 initMenuMobile();
 initFuncionamento();
