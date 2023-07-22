@@ -21,7 +21,8 @@ export default class AnimaNumeros {
         numero.innerText = total;
         clearInterval(timer);
       }
-    }, 25 * Math.random());
+    }, 25);
+    // }, 25 * Math.random());
   }
 
   // Ativa incrementarnumero
