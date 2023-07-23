@@ -138,7 +138,7 @@ export class Slide {
     this.activePrevSlide = this.activePrevSlide.bind(this);
     this.activeNextSlide = this.activeNextSlide.bind(this);
 
-    this.onResize = debounce(this.onResize.bind(this), 200);
+    this.onResize = debounce(this.onResize.bind(this), 100);
   }
 
   init() {
