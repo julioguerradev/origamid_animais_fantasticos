@@ -1,16 +1,18 @@
-<!-- ![banner](https://github.com/lucianesantcs/animais-fantasticos/blob/master/design/mockup.gif?raw=true) -->
-
 # Animais Fantásticos
+
+## 🔖 Descrição
 
 O origamid_animais_fantasticos é um projeto de conclusão, criado por mim, do módulo de javascript do curso da origamid.
 <br>
-<a href="https://julioguerradev.github.io/origamid_animais_fantasticos/">Live Preview</a>
+<br>
 
-### Previews
+## 🖼 Previews
+
+<a href="https://julioguerradev.github.io/origamid_animais_fantasticos/">Live Preview</a>
 
 Screens das telas encontram-se na pasta `./design`
 
-## Tecnologias
+## 🚀 Tecnologias
 
 - HTML5 e CSS3
 - JavaScript
@@ -19,7 +21,37 @@ Screens das telas encontram-se na pasta `./design`
 - Eslint
 - Babel
 
-## Como usar
+## Funcionalidades
+
+### Scroll com animações
+
+![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/af_scroll_animacao.gif)
+
+### Dropdown e Menu Mobile
+
+![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/af_dropdown_e_menu_mobile.gif)
+
+### Modal
+
+![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/ad_modal.gif)
+
+### Nav Tabs
+
+![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/af_nav_tab.gif)
+
+### Accordion
+
+![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/af_accordion.gif)
+
+### Slider
+
+![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/af_slider.gif)
+
+### Números animados e tooltip
+
+![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/af_numeros_tooltip.gif)
+
+## ℹ️ Como usar
 
 Faça um clone deste repositório:
 
@@ -57,6 +89,6 @@ Acesse o projeto abrindo o arquivo **index.html** no seu navegador.
 - GitHub: [@julioguerradev](https://github.com/julioguerradev)
 - LinkedIn: [@julioguerradev](https://linkedin.com/in/julioguerradev)
 
-## License
+## 📝 License
 
 Copyright © 2023 João Victor Júlio / Origamid
