@@ -14,7 +14,7 @@ Screens das telas encontram-se na pasta `./design`
 
 - HTML5 e CSS3
 - JavaScript
-- NodeJs
+- NodeJs (NPM)
 - Webpack
 - Eslint
 - Babel
