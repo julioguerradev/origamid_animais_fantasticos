@@ -1,4 +1,3 @@
-/* eslint-disable import/no-unresolved */
 import debounce from "./debounce.js";
 
 export default class ScrollAnima {
