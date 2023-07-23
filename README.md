@@ -15,7 +15,7 @@ Screens das telas encontram-se na pasta `./design`
 ## 🚀 Tecnologias
 
 - HTML5 e CSS3
-- JavaScript
+- JavaScriptkkkkkkkkk
 - NodeJs (NPM)
 - Webpack
 - Eslint
@@ -25,31 +25,31 @@ Screens das telas encontram-se na pasta `./design`
 
 ### Scroll com animações
 
-![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/af_scroll_animacao.gif)
+![banner](./design/af_scroll_animacao.gif)
 
 ### Dropdown e Menu Mobile
 
-![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/af_dropdown_e_menu_mobile.gif)
+![banner](./design/af_dropdown_e_menu_mobile.gif)
 
 ### Modal
 
-![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/ad_modal.gif)
+![banner](./design/ad_modal.gif)
 
 ### Nav Tabs
 
-![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/af_nav_tab.gif)
+![banner](./design/af_nav_tab.gif)
 
 ### Accordion
 
-![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/af_accordion.gif)
+![banner](./design/af_accordion.gif)
 
 ### Slider
 
-![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/af_slider.gif)
+![banner](./design/af_slider.gif)
 
 ### Números animados e tooltip
 
-![banner](https://github.com/julioguerradev/origamid_animais_fantasticos/design/af_numeros_tooltip.gif)
+![banner](./design/af_numeros_tooltip.gif)
 
 ## ℹ️ Como usar
 
