@@ -15,7 +15,7 @@ Screens das telas encontram-se na pasta `./design`
 ## 🚀 Tecnologias
 
 - HTML5 e CSS3
-- JavaScriptkkkkkkkkk
+- JavaScript
 - NodeJs (NPM)
 - Webpack
 - Eslint
